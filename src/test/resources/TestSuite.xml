@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">-->
+
+<suite name = "TestBrowsersSuite" verbose ="1" parallel="tests">
+    <test name = "HoversTest">
+        <classes>
+            <class name = "herokuapptests.HoversTest" />
+        </classes>
+    </test>
+    <test name = "LoginWithCookieTest">
+        <classes>
+            <class name = "herokuapptests.LoginWithCookieTest" />
+        </classes>
+    </test>
+    <test name = "SwitchingFramesTest">
+        <classes>
+            <class name = "herokuapptests.SwitchingFramesTest" />
+        </classes>
+    </test>
+</suite>
